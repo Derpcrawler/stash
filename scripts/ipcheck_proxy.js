@@ -23,7 +23,7 @@ $httpClient.get(url, function(error, response, data) {
 
   body = {
     title: "Tunnel Info",
-    content: `${ip}\n${isp}\n${emoji}${country} - ${city}`,
+    content: `${ip}\n${isp}\n${emoji}${country} - ${city}`
   };
 
   $done(body);
