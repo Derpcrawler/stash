@@ -10,8 +10,7 @@ $httpClient.get(url, function(error, response, data){
 
     body = {
         title: "ISP",
-        content: `${ip}\n${isp}\n${emoji}${country} - ${city}`,
-        icon: "globe.americas.fill"
+        content: `${ip}\n${isp}\n${emoji}${country} - ${city}`
     }
     $done(body);
 });
