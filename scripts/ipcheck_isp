@@ -11,8 +11,7 @@ $httpClient.get(url, function(error, response, data){
     body = {
         title: "ISP",
         content: `${ip}\n${isp}\n${emoji}${country} - ${city}`,
-        icon: "globe-showing-americas",
-        backgroundColor: '#0C9DFA'
+        icon: "globe-showing-americas"
     }
     $done(body);
 });
