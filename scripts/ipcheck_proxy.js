@@ -24,7 +24,6 @@ $httpClient.get(url, function(error, response, data) {
   body = {
     title: "Tunnel Info",
     content: `${ip}\n${isp}\n${emoji}${country} - ${city}`,
-    icon: "https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@main/png/128/emoji_u1f30e.png"
   };
 
   $done(body);
